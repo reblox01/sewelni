@@ -19,7 +19,7 @@ export const metadata = {
   },
   description: 'Sewelni is an advanced AI chatbot, enhanced for superior performance in Moroccan Arabic (Darija) and Classical Arabic. It provides specialized knowledge in Technology like programming languages and aslo in Islamic teachings and practices, delivering culturally sensitive and accurate interactions. Ideal for personal assistance, learning, and engaging in respectful conversations about Muslim-related topics.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.svg',
     shortcut: '/favicon-32x32.png',
     apple: '/apple-touch-icon.png',
     maskable: '/safari-pinned-tab.svg',
