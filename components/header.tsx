@@ -29,7 +29,7 @@ async function UserOrLogin() {
         </>
       ) : (
         <Link href="/new" rel="nofollow">
-          <IconVercel className="size-6 mr-2 dark:hidden" inverted />
+          <IconVercel className="size-6 mr-2 dark:hidden" />
           <IconVercel className="hidden size-6 mr-2 dark:block" />
         </Link>
       )}
