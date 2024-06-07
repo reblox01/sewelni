@@ -17,7 +17,7 @@ export const metadata = {
     default: 'Sewelni - Chatbot',
     template: `Sewelni`
   },
-  description: 'Sewelni is an advanced AI chatbot, enhanced for superior performance in Moroccan Arabic (Darija) and Classical Arabic. It provides specialized knowledge in Islamic teachings and practices, delivering culturally sensitive and accurate interactions. Ideal for personal assistance, learning, and engaging in respectful conversations about Muslim-related topics.',
+  description: 'Sewelni is an advanced AI chatbot, enhanced for superior performance in Moroccan Arabic (Darija) and Classical Arabic. It provides specialized knowledge in Technology like programming languages and aslo in Islamic teachings and practices, delivering culturally sensitive and accurate interactions. Ideal for personal assistance, learning, and engaging in respectful conversations about Muslim-related topics.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-32x32.png',
@@ -27,6 +27,7 @@ export const metadata = {
     msTileColor: '#000000',
     android: '/android-chrome-512x512.png',
     manifest: '/site.webmanifest',
+    themeColor: '#fffff'
   }
 }
 

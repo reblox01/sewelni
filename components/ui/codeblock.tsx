@@ -43,7 +43,27 @@ export const programmingLanguages: languageMap = {
   shell: '.sh',
   sql: '.sql',
   html: '.html',
-  css: '.css'
+  css: '.css',
+  'less-css': '.less',
+  scss: '.scss',
+  less: '.less',
+  sass: '.sass',
+  stylus: '.styl',
+  'json-5': '.json',
+  json: '.json',
+  json5: '.json',
+  jsonc: '.json',
+  json5c: '.json',
+  yaml: '.yaml',
+  yaml5: '.yaml',
+  yamlc: '.yaml',
+  yml: '.yml',
+  yml5: '.yml',
+  xml: '.xml',
+  markdown: '.md',
+  markdown5: '.md',
+  md: '.md',
+  md5: '.md',
   // add more file extensions here, make sure the key is same as language prop in CodeBlock.tsx component
 }
 
