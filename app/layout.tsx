@@ -7,20 +7,26 @@ import { TailwindIndicator } from '@/components/tailwind-indicator'
 import { Providers } from '@/components/providers'
 import { Header } from '@/components/header'
 import { Toaster } from '@/components/ui/sonner'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   metadataBase: process.env.VERCEL_URL
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    default: 'Next.js AI Chatbot',
-    template: `%s - Next.js AI Chatbot`
+    default: 'Sewelni - Chatbot',
+    template: `Sewelni`
   },
-  description: 'An AI-powered chatbot template built with Next.js and Vercel.',
+  description: 'Sewelni is an advanced AI chatbot, enhanced for superior performance in Moroccan Arabic (Darija) and Classical Arabic. It provides specialized knowledge in Islamic teachings and practices, delivering culturally sensitive and accurate interactions. Ideal for personal assistance, learning, and engaging in respectful conversations about Muslim-related topics.',
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png'
+    shortcut: '/favicon-32x32.png',
+    apple: '/apple-touch-icon.png',
+    maskable: '/safari-pinned-tab.svg',
+    msTileImage: '/mstile-150x150.png',
+    msTileColor: '#000000',
+    android: '/android-chrome-512x512.png',
+    manifest: '/site.webmanifest',
   }
 }
 
@@ -57,6 +63,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <main className="flex flex-col flex-1 bg-muted/50">{children}</main>
           </div>
           <TailwindIndicator />
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
