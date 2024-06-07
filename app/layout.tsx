@@ -22,12 +22,7 @@ export const metadata = {
     icon: '/favicon.svg',
     shortcut: '/favicon-32x32.png',
     apple: '/apple-touch-icon.png',
-    maskable: '/safari-pinned-tab.svg',
-    msTileImage: '/mstile-150x150.png',
-    msTileColor: '#000000',
-    android: '/android-chrome-512x512.png',
-    manifest: '/site.webmanifest',
-    themeColor: '#fffff'
+    maskable: '/safari-pinned-tab.svg'
   }
 }
 
