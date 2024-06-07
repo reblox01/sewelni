@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { UseChatHelpers } from 'ai/react'
 
 import { Button } from '@/components/ui/button'
@@ -9,29 +10,22 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to Sewelni!
         </h1>
         <p className="leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
-          <ExternalLink href="https://sdk.vercel.ai">
-            Vercel AI SDK
-          </ExternalLink>
-          , and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
-          </ExternalLink>
-          .
+          Sewelni is your ultimate chatbot, designed to understand {' '}
+          and communicate in the rich and diverse dialects of Morocco better {' '}
+          than any other AI, including ChatGPT. Whether you speak Darija, Amazigh, {' '}
+          or any local slang, Sewelni is here to engage and assist you with {' '}
+          unparalleled accuracy and cultural understanding.
         </p>
-        <p className="leading-normal text-muted-foreground">
-          It uses{' '}
-          <ExternalLink href="https://vercel.com/blog/ai-sdk-3-generative-ui">
-            React Server Components
-          </ExternalLink>{' '}
-          to combine text with generative UI as output of the LLM. The UI state
-          is synced through the SDK so the model is aware of your interactions
-          as they happen.
-        </p>
+        <h1 className="text-lg font-semibold">Features</h1>
+        <ul className="marker:text-white list-disc pl-5 space-y-3 text-muted-foreground">
+          <li>Cultural Relevance: Understands Moroccan cultural references, idioms, and expressions.</li>{' '}
+          <li>Programming Proficiency: Expert in various programming languages to assist with your coding needs.</li>{' '}
+          <li>User-Friendly Interface: Easy to navigate for a smooth experience.</li>{' '}
+          <li>Continuous Learning: Constantly evolving to adapt to new phrases and trends.</li>{' '}
+        </ul>
       </div>
     </div>
   )
