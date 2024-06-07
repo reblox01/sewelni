@@ -37,8 +37,8 @@ export function ChatPanel({
   const exampleMessages = [
     {
       heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      subheading: 'trending news today?',
+      message: `What are the latest news today?`
     },
     {
       heading: 'What is the price of',
@@ -46,14 +46,14 @@ export function ChatPanel({
       message: 'What is the price of $DOGE right now?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Pick outfit to look good on camera',
+      subheading: 'Tips for Choosing Outfits and Colors for a Photoshoot',
+      message: `I have a photoshoot tomorrow. Can you recommend me some colors and outfit options that will look good on camera?`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'Python script for daily email reports',
+      subheading: `Automating Daily Email Reports in Python`,
+      message: `Write a script to automate sending daily email reports in Python, and walk me through how I would set it up.`
     }
   ]
 
