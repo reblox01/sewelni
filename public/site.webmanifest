@@ -1,11 +1,16 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Sewelni",
+    "short_name": "Sewelni",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
+            "src": "/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/favicon.svg",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/svg+xml"
         },
         {
             "src": "/android-chrome-512x512.png",
@@ -13,7 +18,12 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#17171A",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "description": "Sewelni is an AI-powered chatbot tailored for Moroccan Arabic (Darija) and Classical Arabic. Offering expertise in technology, programming, and Islamic teachings, Sewelni ensures culturally accurate and sensitive interactions. Perfect for personal assistance, learning, and respectful conversations on Muslim-related topics.",
+    "scope": "/",
+    "lang": "en",
+    "orientation": "portrait"
 }
